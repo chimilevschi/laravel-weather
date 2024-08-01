@@ -1,20 +1,11 @@
 {
-    "name": "michaelnabil230/laravel-weather",
+    "name": "chimilevschi/laravel-weather",
     "description": "Package for get the weather data",
     "keywords": [
-        "MichaelNabil230",
         "laravel",
         "laravel-weather"
     ],
-    "homepage": "https://github.com/michaelnabil230/laravel-weather",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Michael Nabil",
-            "email": "michaelnabil926@gmail.com",
-            "role": "Developer"
-        }
-    ],
+    "license": "MIT",   
     "require": {
         "php": "^8.2",
         "spatie/laravel-package-tools": "^1.16.4",
