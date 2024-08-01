@@ -1,16 +1,16 @@
 <?php
 
-namespace MichaelNabil230\Weather;
+namespace Clevada\Weather;
 
 use DateTime;
 use DateTimeZone;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Traits\Macroable;
 use InvalidArgumentException;
-use MichaelNabil230\Weather\Constants\Daily;
-use MichaelNabil230\Weather\Constants\Hourly;
-use MichaelNabil230\Weather\Constants\Minutely15;
-use MichaelNabil230\Weather\Constants\Query;
+use Clevada\Weather\Constants\Daily;
+use Clevada\Weather\Constants\Hourly;
+use Clevada\Weather\Constants\Minutely15;
+use Clevada\Weather\Constants\Query;
 
 class Weather
 {
