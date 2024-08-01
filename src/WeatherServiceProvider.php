@@ -1,8 +1,8 @@
 <?php
 
-namespace MichaelNabil230\Weather;
+namespace Clevada\Weather;
 
-use MichaelNabil230\Weather\Commands\WeatherCommand;
+use Clevada\Weather\Commands\WeatherCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
 
