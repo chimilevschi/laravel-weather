@@ -1,10 +1,10 @@
 <?php
 
-namespace MichaelNabil230\Weather\Commands;
+namespace Clevada\Weather\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
-use MichaelNabil230\Weather\Weather;
+use Clevada\Weather\Weather;
 
 class WeatherCommand extends Command
 {
