@@ -1,6 +1,6 @@
 <?php
 
-namespace MichaelNabil230\Weather\Constants;
+namespace Clevada\Weather\Constants;
 
 trait Hourly
 {
