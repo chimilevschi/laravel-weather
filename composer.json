@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MichaelNabil230\\Weather\\": "src/"
+            "Clevada\\Weather\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MichaelNabil230\\Weather\\Tests\\": "tests/"
+            "Clevada\\Weather\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -58,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MichaelNabil230\\Weather\\WeatherServiceProvider"
+                "Clevada\\Weather\\WeatherServiceProvider"
             ]
         }
     },
