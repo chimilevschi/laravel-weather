@@ -1,10 +1,5 @@
 # 🌤 Open-Meteo Weather API
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/michaelnabil230/laravel-weather.svg?style=flat-square)](https://packagist.org/packages/michaelnabil230/laravel-weather)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/michaelnabil230/laravel-weather/run-tests?label=tests)](https://github.com/michaelnabil230/laravel-weather/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/michaelnabil230/laravel-weather/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/michaelnabil230/laravel-weather/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amaster)
-[![Total Downloads](https://img.shields.io/packagist/dt/michaelnabil230/laravel-weather.svg?style=flat-square)](https://packagist.org/packages/michaelnabil230/laravel-weather)
-
 [![Open Meteo](https://cdn.substack.com/image/fetch/w_1360,c_limit,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd0d7953-5a9d-441c-b59f-4cde244503a1_934x461.png)](https://open-meteo.com/en)
 
 Download Meteorological Data from OPEN-METEO API (https://open-meteo.com/en)
@@ -18,7 +13,7 @@ APIs are free without any API key for open-source developers and non-commercial 
 You can install the package via composer:
 
 ```bash
-composer require michaelnabil230/laravel-weather
+composer require chimilevschi/laravel-weather
 ```
 
 You can publish the config file with:
@@ -42,7 +37,7 @@ return [
 ## Usage
 
 ```php
-$weather = \MichaelNabil230\Weather\Weather::location(30.0812558, 31.2511902)
+$weather = \Clevada\Weather\Weather::location(30.0812558, 31.2511902)
     ->current()
     ->get();
 ```
@@ -170,32 +165,6 @@ WMO Weather interpretation codes (WW):
 ```bash
 composer test
 ```
-
-## Support
-
-[![Image for sponsor](./.assets/sponsors.png)](https://github.com/sponsors/michaelnabil230)
-
-Or
-
-[![Ko-fi](.assets/ko-fi.png)](https://ko-fi.com/michaelnabil230)[![Buymeacoffee](.assets/buymeacoffee.png)](https://www.buymeacoffee.com/michaelnabil230)[![Paypal](.assets/paypal.png)](https://www.paypal.com/paypalme/MichaelNabil23)
-
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
-- [Michael Nabil](https://github.com/MichaelNabil230)
-- [All Contributors](../../contributors)
 
 ## License
 
